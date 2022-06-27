@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       function multiples(){
+            for(i = 0; i<=100; i++){
+            if(i%3===0 && i%5===0){
+                console.log("FizzBuzz")
+            }
+            else if(i%3===0){
+                console.log("Fizz")
+            }
+            else if(i%5===0){
+                console.log("Buzz")
+            }
+            else{
+                console.log(i)
+            }
+        }
+        }
+        multiples()
+        function additions(){
+            for(s = 0; s<=1000; s++){
+                for(t = 0; t<=1000; t++){
+                    if(s%3===0 && s%5===0){
+                        product = s*t
+                    }  
+                }
+            }
+            return product
+        }
+        additions()
+        function even_numbers(){
+          for(num =0; num<=20; num++){
+        if (num === 0) {
+                console.log(num +  " is even");
+        }
+        else if (num % 2 === 0) {
+                console.log(num + " is even");   
+        }
+        else {
+                console.log(num + " is odd");
+        }
+}
+
+        }
+        even_numbers()
+        let a = 40;
+        let b = 10;
+        function largest(){
+            if(a>b){
+                console.log(a)
+
+            }
+            else{
+                console.log(b)
+            }
+        }
+        largest()
+        function leap_year(){
+            for(x=2000; x<=2022; x++){
+                if(x%4===0){
+                    console.log(x)
+                }
+                else if(x%400===0 && x%100===0){
+                    console.log(x)
+                }
+                else{
+
+                }
+            }
+            
+        }
+        leap_year()
+
+    </script>
+</body>
+</html>
