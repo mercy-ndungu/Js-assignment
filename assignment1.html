@@ -24,18 +24,19 @@
             }
         }
         }
-        multiples()
-        function additions(){
-            for(s = 0; s<=1000; s++){
-                for(t = 0; t<=1000; t++){
-                    if(s%3===0 && s%5===0){
-                        product = s*t
-                    }  
+        multiples();
+
+        function sum(){
+            let add = 0;
+            for(let numeral= 0; numeral<=1000; numeral++){
+                if(numeral%3===0 && numeral%5===0){
+                add+=numeral
                 }
             }
-            return product
+            console.log(add);
         }
-        additions()
+        sum();
+        
         function even_numbers(){
           for(num =0; num<=20; num++){
         if (num === 0) {
@@ -63,6 +64,16 @@
             }
         }
         largest()
+
+        function large(){
+            let num =[-2, 4,-5, 6,0];
+            let large_num = 0;
+            for(let digit =0; digit<num.length; digit++){
+                if(large_num>digit[num]){
+                large_num=digit[num];
+                }
+            }
+        }
         function leap_year(){
             for(x=2000; x<=2022; x++){
                 if(x%4===0){
